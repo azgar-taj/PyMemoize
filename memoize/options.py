@@ -1,5 +1,5 @@
 from functools import partial
-from collections import Callable
+from collections.abc import Callable
 
 
 def call_or_pass(value, args, kwargs):
